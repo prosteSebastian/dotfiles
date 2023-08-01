@@ -1,4 +1,4 @@
-#xddd
+" xddd
 
 syntax on
 
@@ -40,7 +40,7 @@ filetype off                  " required
 " let Vundle manage Vundle, required
 call plug#begin('~/.vim/plugged')
 
-" Plug 'github/copilot.vim'
+Plug 'github/copilot.vim'
 " Theme
 Plug 'crusoexia/vim-monokai'
 Plug 'vim-airline/vim-airline'

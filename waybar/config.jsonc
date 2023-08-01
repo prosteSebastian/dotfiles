@@ -70,8 +70,6 @@
     },
     
     "cava": {
-	"background" : "#4287f5",
-	"foreground" : "#4287f5",
         "framerate": 30,
         "autosens": 1,
         "bars": 15,

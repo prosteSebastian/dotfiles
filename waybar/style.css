@@ -114,7 +114,9 @@ tooltip {
 }
 
 #cava {
+    color : #f542d4;
 }
+
 
 #pulseaudio {
     color: #89b4fa;
@@ -127,7 +129,3 @@ tooltip {
 #battery {
     color: #a6e3a1;
 }
-#cava {
-    color : #cba6f7;
-}
-
