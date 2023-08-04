@@ -66,7 +66,8 @@
     },
     "memory" : {
     	"interval": 1,
-    	"format": " {}%"
+    	"format": " {}%",
+	"on-click": "kitty -e btm"
     },
     
     "cava": {

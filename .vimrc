@@ -40,7 +40,7 @@ filetype off                  " required
 " let Vundle manage Vundle, required
 call plug#begin('~/.vim/plugged')
 
-Plug 'github/copilot.vim'
+" Plug 'github/copilot.vim'
 " Theme
 Plug 'crusoexia/vim-monokai'
 Plug 'vim-airline/vim-airline'
@@ -86,7 +86,7 @@ Plug   'Chiel92/vim-autoformat'
 " VSCode plugin
 Plug   'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'rip-rip/clang_complete'
+ " Plug 'rip-rip/clang_complete'
 
 " All of your Plugins must be added before the following line
 call plug#end()
