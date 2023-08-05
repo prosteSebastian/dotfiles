@@ -1,5 +1,5 @@
 alias gen-pass="date +%s | sha256sum | base64 | head -c 32 ; echo"
-
+alias homie='kitty ssh ubuntu@130.61.92.111 &'
 alias gppo='g++ --std=c++17 -Wall -pedantic -Wno-long-long -g -fno-omit-frame-pointer -Wunused-variable -Wtrigraphs -trigraphs -O0'
 alias gpp='g++ --std=c++17 -Wall -pedantic -Wno-long-long -g -fno-omit-frame-pointer -Wunused-variable -Wtrigraphs -trigraphs -O2'
 alias go='git open'
@@ -7,7 +7,6 @@ alias kill-window='xprop _NET_WM_PID | sed "s/.*=//g" | xargs kill -9'
 alias hypconf='vim ~/.config/hypr/hyprland.conf' 
 alias barconf='vim ~/.config/waybar/config.jsonc' 
 alias du='ncdu'
-alias df='duf'
 alias ps='procs'
 alias grep='grep --color'
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS} '
