@@ -79,7 +79,7 @@ Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug   'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug   'junegunn/fzf.vim'
 
-
+Plug 'scrooloose/syntastic'
 Plug   'tpope/vim-fugitive'
 Plug   'Chiel92/vim-autoformat'
 
