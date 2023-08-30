@@ -1,5 +1,5 @@
 alias gen-pass="date +%s | sha256sum | base64 | head -c 32 ; echo"
-alias homie='kitty ssh ubuntu@130.61.92.111 &'
+alias homie='ssh ubuntu@130.61.92.111'
 alias gppo='g++ --std=c++17 -Wall -pedantic -Wno-long-long -g -fno-omit-frame-pointer -Wunused-variable -Wtrigraphs -trigraphs -O0'
 alias gpp='g++ --std=c++17 -Wall -pedantic -Wno-long-long -g -fno-omit-frame-pointer -Wunused-variable -Wtrigraphs -trigraphs -O2'
 alias go='git open'
