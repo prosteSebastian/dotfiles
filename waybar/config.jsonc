@@ -10,7 +10,7 @@
 	"clock",
 	"cpu",
 	"memory",
-	"wlr/workspaces"
+	"hyprland/workspaces"
     ],
 
     "modules-center": [
